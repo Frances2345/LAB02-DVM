@@ -32033,7 +32033,7 @@ GameObject:
   - component: {fileID: 1547493938}
   m_Layer: 0
   m_Name: Humanoid
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39962,7 +39962,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.083333336
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: fed992add232a8b42bbd11d1737ef1b3, type: 2}
   m_BuildHeightMesh: 0
 --- !u!4 &1958092063
 Transform:
