@@ -5927,6 +5927,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5f02b2a20e9abb643a49e9d31e163c33, type: 3}
   m_PrefabInstance: {fileID: 288081658}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &290643992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 290643993}
+  - component: {fileID: 290643994}
+  m_Layer: 0
+  m_Name: Link1 (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &290643993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290643992}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.63036615, z: -0, w: -0.7762979}
+  m_LocalPosition: {x: 29, y: 8, z: 20}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2051288835}
+  m_LocalEulerAnglesHint: {x: 0, y: 281.846, z: 0}
+--- !u!114 &290643994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290643992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eeb5dc026fdf4b488bc7ae0138ab719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshLink
+  m_SerializedVersion: 1
+  m_AgentTypeID: 0
+  m_StartPoint: {x: -1.5468532, y: 0.24749947, z: -2.367962}
+  m_EndPoint: {x: 2.3679628, y: 0.24749947, z: -1.5468538}
+  m_StartTransform: {fileID: 0}
+  m_EndTransform: {fileID: 0}
+  m_Activated: 1
+  m_Width: 0
+  m_CostModifier: 1
+  m_IsOverridingCost: 0
+  m_Bidirectional: 1
+  m_AutoUpdatePosition: 0
+  m_Area: 0
 --- !u!1001 &292313961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41469,6 +41526,7 @@ Transform:
   - {fileID: 2005101833}
   - {fileID: 711834065}
   - {fileID: 225479821}
+  - {fileID: 290643993}
   - {fileID: 1196457299}
   - {fileID: 2145667816}
   - {fileID: 1825140349}
