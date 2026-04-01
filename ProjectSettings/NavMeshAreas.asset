@@ -13,6 +13,10 @@ NavMeshProjectSettings:
     cost: 2
   - name: Mud
     cost: 4
+  - name: Ramps
+    cost: 3
+  - name: Floating
+    cost: 2
   - name: 
     cost: 1
   - name: 
@@ -65,11 +69,7 @@ NavMeshProjectSettings:
     cost: 1
   - name: 
     cost: 1
-  - name: 
-    cost: 1
-  - name: 
-    cost: 1
-  m_LastAgentTypeID: -1372625422
+  m_LastAgentTypeID: -334000983
   m_Settings:
   - serializedVersion: 3
     agentTypeID: 0
@@ -92,7 +92,7 @@ NavMeshProjectSettings:
   - serializedVersion: 3
     agentTypeID: -1372625422
     agentRadius: 0.1
-    agentHeight: 0.5
+    agentHeight: 0.48
     agentSlope: 60
     agentClimb: 0.3
     ledgeDropHeight: 0
