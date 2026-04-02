@@ -10,19 +10,12 @@ public class AgentSimpleController : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.SetAreaCost(0, 10);
         agent.SetAreaCost(3, 1);
-
     }
-
-    
     void Update()
     {
         if(Target != null)
         {
             agent.SetDestination(Target.position);
-            
-
-            //agent.
-
         }
     }
     public void HasPath()
@@ -35,8 +28,6 @@ public class AgentSimpleController : MonoBehaviour
         if(agent == null || agent.path == null) return;
 
         Vector3[] corners = agent.path.corners;
-
-
         for (int i = 0; i < corners.Length - 1; i++)
         {
             Gizmos.DrawLine(corners[i], corners[i + 1]);
